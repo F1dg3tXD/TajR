@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tajrian Rahman | 483E: Computer Assisted Graphics | 2024 Summer | Mon/Wed/Thurs</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="icon" type="image/x-icon" href="favlogo.jpg">
+  <link rel="stylesheet" href="https://use.typekit.net/fik4kfh.css">
+</head>
+<style>
+  /*this is the reset*/
+  * {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  /*this is the menu*/
+  #Wrapper {
+    width: 720px;
+    left: -720px;
+    transition: all 0.8s ease-in-out;
+    background-color: rgba(255, 0, 0, 0.68);
+    text-align: center;
+    position: fixed;
+    height: 100%;
+  }
+
+  .logomark {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  .Portrait {
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff0000;
+  }
+
+  h1 {
+    font-family: "ltc-broadway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 89%, 1.00);
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-family: "rockwell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    padding-bottom: 30px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: hsla(0, 0%, 89%, 1.00);
+  }
+
+  /*This is the main Navigation setting*/
+
+  .PrimaryNav {
+    background-color: rgba(87, 75, 121, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .PrimaryNav ul {
+    background-color: rgba(255, 0, 0, 0.68);
+  }
+
+  .PrimaryNav li {
+    background-color: #4d4d4d;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666666;
+  }
+
+  .PrimaryNav a {
+    padding: 12px 68px;
+    color: rgb(255, 255, 255);
+    font-family: "rockwell-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  ul li a {}
+
+  .PrimaryNav li:hover {
+    background-color: rgba(66, 66, 66, 1);
+  }
+
+  .PrimaryNav a:hover {
+    color: rgba(215, 215, 215, 1.00);
+  }
+
+  footer {
+    padding-bottom: 40px;
+    font-weight: 200;
+    color: rgba(222, 222, 222, 1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 35px;
+  }
+
+  footer p {
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding-top: 16px;
+  }
+
+  footer a {
+    color: rgba(222, 222, 222, 1.00);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  /*This is background image & animation section*/
+
+  html {
+    background-size: cover;
+    height: 100%;
+    animation: bg-animation 40s infinite;
+  }
+
+  @keyframes bg-animation {
+    0% {
+      background-image: url("img/index01.png");
+    }
+
+    16% {
+      background-image: url("img/index02.png");
+    }
+
+    32% {
+      background-image: url("img/index03.png");
+    }
+
+    48% {
+      background-image: url("img/index04.png");
+    }
+
+    64% {
+      background-image: url("img/index05.png");
+    }
+
+    80% {
+      background-image: url("img/index06.png");
+    }
+
+    100% {
+      background-image: url("img/index01.png");
+    }
+  }
+
+  /*This is to set the Wrapper to the left*/
+  #Wrapper.open {
+    left: 0;
+  }
+
+  /*This is to set the Toggle button*/
+  #Toggle {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgba(24, 1, 1, 0.77);
+  }
+
+  /*This is the end of the style setting*/
+</style>
+
+<body>
+  <div id="Wrapper">
+    <header><img class="logomark" src="img/logo.png"><img class="Portrait" src="img/me.png">
+      <h1>Tajrian Rahman</h1>
+      <h2>483E: Computer Assisted Graphics<br>
+        2024 Summer | Mon/Wed/Thurs 9:00-12:00</h2>
+    </header>
+    <main>
+      <nav class="PrimaryNav">
+        <ul>
+          <li>
+            <a href="https://xd.adobe.com/view/74df31de-d3ef-4ce4-b257-5cd791290903-218c/" target="_blank">Project 01 </a>|
+            <a href="https://docs.google.com/presentation/d/1-OQLH1QEMllar_lSL7hKv6w2qvykkj37foLxlYm2-Lc/edit?usp=sharing" target="_blank">Design Process</a>
+          </li>
+          <li>
+            <a href="https://xd.adobe.com/view/f1cc1d82-2823-4b6f-963f-9ff8f63f3d1d-a49f/" target="_blank">Project 02 </a>|
+            <a href="https://docs.google.com/presentation/d/1ylcAYQRSsEouU01Z0_yLR7PP92fCkWqaR-v7Izb6vqQ/edit?usp=sharing" target="_blank">Design Process</a>
+          </li>
+          <li>
+            <a href="https://xd.adobe.com/view/d685d76f-8aeb-498a-a161-e2eadd028079-83d6/" target="_blank">Project 03 </a>|
+            <a href="https://docs.google.com/presentation/d/1ylcAYQRSsEouU01Z0_yLR7PP92fCkWqaR-v7Izb6vqQ/edit?usp=sharing" target="_blank">Design Process</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <footer>
+      <a href="about/index.html" target="_blank">About Me</a> | <a href="https://www.instagram.com/f1dg3t_gram/">Social
+        Media Link</a>
+      <div class="SocialMedia"></div>
+      <p>&copy;Tajrian Rahman Design 2024</p>
+    </footer>
+    <!-- this is the taggle link bar -->
+    <a id="Toggle">☰</a>
+
+    <script>
+      var wrapper = document.getElementById("Wrapper");
+      var toggle = document.getElementById("Toggle");
+
+      toggle.addEventListener("click", function () {
+        wrapper.classList.toggle("open");
+      });
+    </script>
+
+  </div>
+</body>
+
+</html>

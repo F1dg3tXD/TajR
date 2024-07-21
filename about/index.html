@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Tajrian Rahman | About </title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="https://use.typekit.net/fik4kfh.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4d;
+}
+
+#Wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.logomark,
+.Portrait {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff0000;
+}
+
+.logomark {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Portrait {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger {
+    background: #ff0000;
+    opacity: 0.68;
+    border: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.5s, transform 0.5s;
+    z-index: 2;
+}
+
+.hamburger span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    transform: rotate(-45deg) translate(-2px, 3px) scale(2, 1);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #d0d0d0;
+    margin: 0.5em 0;
+}
+
+.PrimaryNav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.PrimaryNav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.PrimaryNav a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+h3,
+h4 {
+    color: #eeeeee;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+footer p {
+    margin: 10px 0 0;
+    color: #ffffff;
+}
+
+/* Side navigation */
+#sideNav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: rgba(255, 0, 0, 0.68);
+    transition: left 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+#sideNav .navItem {
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    margin: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sideNav .navItem:hover {
+    background-color: #666666;
+}
+
+#sideNav.active {
+    left: 0;
+}
+
+#sideNav.active+.hamburger {
+    left: 270px;
+}
+
+p {
+    color: #ffffff;
+}
+
+li {
+    color: #ffffff;
+}
+</style>
+	
+<body>
+    <div id="Wrapper">
+        <header>
+            <img class="logomark" src="favicon.png" alt="Logo">
+            <img class="Portrait" src="img/me.png" alt="Portrait of Tajrian Rahman">
+            <h1>Tajrian Rahman</h1>
+            <h2>483E | Graphic & Interactive Design | CSUF </h2>
+            <button id="navToggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        <main>
+            <nav class="PrimaryNav">
+                <ul>
+                    <li> About Me |
+                        <a href="https://www.instagram.com/f1dg3t_gram/" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3>About Me</h3>
+            <img src="img/skills01.png" alt="A graph shows my design skill using Adobe applications" />
+            <img src="img/skills02.png" alt="A graph shows my design skill using other applications" />
+            <h4>01: Cultural heritage (where I come from?)</h4>
+            <p>I was born in California to parents who emigrated from Bangladesh, enriching my life with a blend of two
+                cultures. Growing up bilingual in Bengali and English gave me a unique perspective, merging my
+                Bangladeshi heritage with the dynamic culture of California. Initially, I pursued a career in
+                programming, drawn to its logical structure and problem-solving aspects. However, I soon realized that
+                it didn't fulfill my creative aspirations. My passion for storytelling and visual arts, always present
+                in my life, began to take precedence. This led me to shift my focus toward animation, a field that
+                beautifully combines technical skill with artistic expression. Becoming an animator allowed me to bring
+                characters and stories to life, merging my technical background with my creative inclinations. This
+                career change has been incredibly rewarding, and I am excited to continue growing as an animator,
+                crafting engaging and visually stunning narratives.</p>
+
+            <h4>02: Personal Identity (How to define myself?)</h4>
+            <p>I define myself as someone who is relentlessly dedicated to making my work known and ensuring it stands
+                out in the digital landscape. This commitment drives me to consistently create, share, and refine my
+                work, striving for excellence in every project I undertake. One of my key strategies is maintaining a
+                strong online presence, ensuring that my username, F1dg3t, is synonymous with my brand and easily
+                traceable back to me through a simple Google search. This approach not only helps in building my
+                personal brand but also ensures that my work reaches a broader audience. I believe in the power of
+                visibility and recognition, and I take active steps to ensure that my digital footprint reflects my
+                identity, creativity, and professional journey. By doing so, I aim to establish myself as a recognized
+                and respected figure in my field, with F1dg3t serving as a reliable link to my portfolio, projects, and
+                achievements.</p>
+
+            <h4>03: How do you see your cultural heritage and personal identity evolving and impacting your design work?
+            </h4>
+            <p>When it comes to my design work, my cultural heritage and personal identity have not played a significant
+                role in shaping my creative output. Instead, my work is driven by what I find interesting or what others
+                suggest is intriguing. I focus on adapting my work to the tools and technologies I use, allowing them to
+                guide my creative process. This approach ensures that my designs are versatile, innovative, and aligned
+                with current trends and interests, rather than being influenced by my background or identity. My primary
+                goal is to create compelling and relevant work, regardless of cultural influences. By staying open to
+                new ideas and tools, I can continually evolve my designs to meet the demands of an ever-changing
+                industry. This method allows me to maintain a fresh and unbiased perspective, ensuring that my work
+                remains unique and impactful.</p>
+
+            <h4>04: How do you think Web 3.0 will impact the field of graphic design and interaction design and how you
+                will adapt to these changes?</h4>
+            <p>Web 3.0 is set to revolutionize the field of graphic design and interaction design, primarily through its
+                focus on decentralization, enhanced user control, and immersive experiences. The rise of blockchain
+                technology, NFTs, and the metaverse are pushing designers to think beyond traditional boundaries. I've
+                already seen significant changes in how designers approach user experiences, integrating more
+                interactive and user-driven elements. Adapting to these changes has been a seamless transition for me.
+                Staying ahead of the curve, I've embraced new tools and technologies, ensuring my skills remain
+                relevant. This proactive approach has allowed me to integrate decentralized elements and immersive
+                experiences into my designs, creating more engaging and personalized user interactions. Moreover, the
+                shift towards open-source platforms and collaborative design processes has fostered a more innovative
+                and inclusive environment. By continuously learning and evolving with these advancements, I'm
+                well-prepared to navigate and thrive in the evolving landscape of Web 3.0.</p>
+
+        </main>
+        <footer>
+            About Me | <a href="https://www.instagram.com/f1dg3t_gram/">Instagram</a>
+            <div class="SocialMedia"></div>
+            <p>&copy;Tajrian Rahman Design 2024</p>
+        </footer>
+    </div>
+    <nav id="sideNav">
+        <div class="navItem">
+            <a class="navLink" href="http://f1dg3t.rf.gd">
+                <p>Home</p>
+            </a>
+        </div>
+        <div class="navItem">
+            <a class="navLink" href="https://f1dg3txd.github.io" target="_blank">
+                <p>Portfolio</p>
+            </a>
+        </div>
+        <div class="navItem">
+            <a class="navLink" href="mailto:f1dg3t.rah@gmail.com" target="_blank">
+                <p>Contact</p>
+            </a>
+        </div>
+    </nav>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
